@@ -67,7 +67,7 @@ func main() {
 	router.GET("/departamentos", getDepartamentos)
 	router.GET("/distritos", getDistritos)
 
-	router.Run("localhost:8080")
+	router.Run()
 }
 
 func getDepartamentos(c *gin.Context) {
